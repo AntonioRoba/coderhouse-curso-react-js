@@ -1,0 +1,1 @@
+export const dimensions = (width, height, unit = 'px') => { return { width: `${width}${unit}`, height: `${height}${unit}` } }
