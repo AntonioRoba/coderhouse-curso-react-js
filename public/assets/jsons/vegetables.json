@@ -1,0 +1,398 @@
+[
+  {
+    "id": 1,
+    "category": 1,
+    "name": "acedera",
+    "photo": "acedera.jpeg",
+    "full_description": "acedera: full description",
+    "short_description": "acedera: short description",
+    "stock": 10
+  },
+  {
+    "id": 2,
+    "category": 1,
+    "name": "acelga",
+    "photo": "default.png",
+    "full_description": "acelga: full description",
+    "short_description": "acelga: short description",
+    "stock": 10
+  },
+  {
+    "id": 3,
+    "category": 1,
+    "name": "apio",
+    "photo": "default.png",
+    "full_description": "apio: full description",
+    "short_description": "apio: short description",
+    "stock": 10
+  },
+  {
+    "id": 4,
+    "category": 1,
+    "name": "borraja",
+    "photo": "default.png",
+    "full_description": "borraja: full description",
+    "short_description": "borraja: short description",
+    "stock": 10
+  },
+  {
+    "id": 5,
+    "category": 1,
+    "name": "cardo",
+    "photo": "default.png",
+    "full_description": "cardo: full description",
+    "short_description": "cardo: short description",
+    "stock": 10
+  },
+  {
+    "id": 6,
+    "category": 1,
+    "name": "repollo",
+    "photo": "default.png",
+    "full_description": "repollo: full description",
+    "short_description": "repollo: short description",
+    "stock": 10
+  },
+  {
+    "id": 7,
+    "category": 1,
+    "name": "escarola",
+    "photo": "default.png",
+    "full_description": "escarola: full description",
+    "short_description": "escarola: short description",
+    "stock": 10
+  },
+  {
+    "id": 8,
+    "category": 1,
+    "name": "espinaca",
+    "photo": "default.png",
+    "full_description": "espinaca: full description",
+    "short_description": "espinaca: short description",
+    "stock": 10
+  },
+  {
+    "id": 9,
+    "category": 1,
+    "name": "lechuga",
+    "photo": "default.png",
+    "full_description": "lechuga: full description",
+    "short_description": "lechuga: short description",
+    "stock": 10
+  },
+  {
+    "id": 10,
+    "category": 1,
+    "name": "endivia",
+    "photo": "default.png",
+    "full_description": "endivia: full description",
+    "short_description": "endivia: short description",
+    "stock": 10
+  },
+
+  {
+    "id": 11,
+    "category": 2,
+    "name": "puerro",
+    "photo": "default.png",
+    "full_description": "puerro: full description",
+    "short_description": "puerro: short description",
+    "stock": 10
+  },
+  {
+    "id": 12,
+    "category": 2,
+    "name": "espárrago",
+    "photo": "default.png",
+    "full_description": "espárrago: full description",
+    "short_description": "espárrago: short description",
+    "stock": 10
+  },
+  {
+    "id": 13,
+    "category": 2,
+    "name": "apio",
+    "photo": "default.png",
+    "full_description": "apio: full description",
+    "short_description": "apio: short description",
+    "stock": 10
+  },
+
+  {
+    "id": 14,
+    "category": 3,
+    "name": "alcachofa",
+    "photo": "default.png",
+    "full_description": "alcachofa: full description",
+    "short_description": "alcachofa: short description",
+    "stock": 10
+  },
+  {
+    "id": 15,
+    "category": 3,
+    "name": "brócoli",
+    "photo": "default.png",
+    "full_description": "brócoli: full description",
+    "short_description": "brócoli: short description",
+    "stock": 10
+  },
+  {
+    "id": 16,
+    "category": 3,
+    "name": "coliflor",
+    "photo": "default.png",
+    "full_description": "coliflor: full description",
+    "short_description": "coliflor: short description",
+    "stock": 10
+  },
+
+  {
+    "id": 17,
+    "category": 4,
+    "name": "berenjena",
+    "photo": "default.png",
+    "full_description": "berenjena: full description",
+    "short_description": "berenjena: short description",
+    "stock": 10
+  },
+  {
+    "id": 18,
+    "category": 4,
+    "name": "calabacín",
+    "photo": "default.png",
+    "full_description": "calabacín: full description",
+    "short_description": "calabacín: short description",
+    "stock": 10
+  },
+  {
+    "id": 19,
+    "category": 4,
+    "name": "calabaza",
+    "photo": "default.png",
+    "full_description": "calabaza: full description",
+    "short_description": "calabaza: short description",
+    "stock": 10
+  },
+  {
+    "id": 20,
+    "category": 4,
+    "name": "palta",
+    "photo": "default.png",
+    "full_description": "palta: full description",
+    "short_description": "palta: short description",
+    "stock": 10
+  },
+  {
+    "id": 21,
+    "category": 4,
+    "name": "pepino",
+    "photo": "default.png",
+    "full_description": "pepino: full description",
+    "short_description": "pepino: short description",
+    "stock": 10
+  },
+  {
+    "id": 22,
+    "category": 4,
+    "name": "pimiento",
+    "photo": "default.png",
+    "full_description": "pimiento: full description",
+    "short_description": "pimiento: short description",
+    "stock": 10
+  },
+  {
+    "id": 23,
+    "category": 4,
+    "name": "tomate",
+    "photo": "default.png",
+    "full_description": "tomate: full description",
+    "short_description": "tomate: short description",
+    "stock": 10
+  },
+
+  {
+    "id": 24,
+    "category": 5,
+    "name": "ajo",
+    "photo": "default.png",
+    "full_description": "ajo: full description",
+    "short_description": "ajo: short description",
+    "stock": 10
+  },
+  {
+    "id": 25,
+    "category": 5,
+    "name": "cebolla",
+    "photo": "default.png",
+    "full_description": "cebolla: full description",
+    "short_description": "cebolla: short description",
+    "stock": 10
+  },
+  {
+    "id": 26,
+    "category": 5,
+    "name": "colirrábano",
+    "photo": "default.png",
+    "full_description": "colirrábano: full description",
+    "short_description": "colirrábano: short description",
+    "stock": 10
+  },
+  {
+    "id": 27,
+    "category": 5,
+    "name": "hinojo",
+    "photo": "default.png",
+    "full_description": "hinojo: full description",
+    "short_description": "hinojo: short description",
+    "stock": 10
+  },
+
+  {
+    "id": 28,
+    "category": 6,
+    "name": "arveja",
+    "photo": "default.png",
+    "full_description": "arveja: full description",
+    "short_description": "arveja: short description",
+    "stock": 10
+  },
+  {
+    "id": 29,
+    "category": 6,
+    "name": "habas",
+    "photo": "default.png",
+    "full_description": "habas: full description",
+    "short_description": "habas: short description",
+    "stock": 10
+  },
+  {
+    "id": 30,
+    "category": 6,
+    "name": "poroto",
+    "photo": "default.png",
+    "full_description": "poroto: full description",
+    "short_description": "poroto: short description",
+    "stock": 10
+  },
+  {
+    "id": 31,
+    "category": 6,
+    "name": "soja",
+    "photo": "default.png",
+    "full_description": "soja: full description",
+    "short_description": "soja: short description",
+    "stock": 10
+  },
+
+  {
+    "id": 32,
+    "category": 7,
+    "name": "nabo",
+    "photo": "default.png",
+    "full_description": "nabo: full description",
+    "short_description": "nabo: short description",
+    "stock": 10
+  },
+  {
+    "id": 33,
+    "category": 7,
+    "name": "rábano",
+    "photo": "default.png",
+    "full_description": "rábano: full description",
+    "short_description": "rábano: short description",
+    "stock": 10
+  },
+  {
+    "id": 34,
+    "category": 7,
+    "name": "zanahoria",
+    "photo": "default.png",
+    "full_description": "zanahoria: full description",
+    "short_description": "zanahoria: short description",
+    "stock": 10
+  },
+  {
+    "id": 35,
+    "category": 7,
+    "name": "mandioca",
+    "photo": "default.png",
+    "full_description": "mandioca: full description",
+    "short_description": "mandioca: short description",
+    "stock": 10
+  },
+  {
+    "id": 36,
+    "category": 7,
+    "name": "apio",
+    "photo": "default.png",
+    "full_description": "apio: full description",
+    "short_description": "apio: short description",
+    "stock": 10
+  },
+  {
+    "id": 37,
+    "category": 7,
+    "name": "chirivía",
+    "photo": "default.png",
+    "full_description": "chirivía: full description",
+    "short_description": "chirivía: short description",
+    "stock": 10
+  },
+  {
+    "id": 38,
+    "category": 7,
+    "name": "remolacha",
+    "photo": "default.png",
+    "full_description": "remolacha: full description",
+    "short_description": "remolacha: short description",
+    "stock": 10
+  },
+
+  {
+    "id": 39,
+    "category": 8,
+    "name": "papa",
+    "photo": "default.png",
+    "full_description": "papa: full description",
+    "short_description": "papa: short description",
+    "stock": 10
+  },
+  {
+    "id": 40,
+    "category": 8,
+    "name": "boniato",
+    "photo": "default.png",
+    "full_description": "boniato: full description",
+    "short_description": "boniato: short description",
+    "stock": 10
+  },
+  {
+    "id": 41,
+    "category": 8,
+    "name": "ñame",
+    "photo": "default.png",
+    "full_description": "ñame: full description",
+    "short_description": "ñame: short description",
+    "stock": 10
+  },
+
+  {
+    "id": 42,
+    "category": 9,
+    "name": "taro",
+    "photo": "default.png",
+    "full_description": "taro: full description",
+    "short_description": "taro: short description",
+    "stock": 10
+  },
+
+  {
+    "id": 43,
+    "category": 10,
+    "name": "jengibre",
+    "photo": "default.png",
+    "full_description": "jengibre: full description",
+    "short_description": "jengibre: short description",
+    "stock": 10
+  }
+]

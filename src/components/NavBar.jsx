@@ -1,46 +1,54 @@
+import { useEffect, useState } from 'react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Link, useParams } from 'react-router-dom';
+import { getCartService } from '../services/getCart';
+import { getCategoriesService } from '../services/getCategories';
 import { CartWidget } from './CartWidget';
 
 export const NavBar = () => {
   const brand = 'Verdulería online';
-  const categories = [
-    {
-      id: 1,
-      name: 'categoría 1',
-    },
-    {
-      id: 2,
-      name: 'categoría 2',
-    },
-    {
-      id: 3,
-      name: 'categoría 3',
-    },
-  ];
+  const params = useParams();
+  const [categories, setCategories] = useState([]);
+  const [cartQuantity, setCartQuantity] = useState(0);
+
+  useEffect(() => {
+    getCategories();
+    const cart = getCartService();
+    setCartQuantity(cart.quantity);
+  }, [params]);
+
+  const getCategories = async () => {
+    const _categories = await getCategoriesService();
+    setCategories(_categories);
+  };
 
   return (
     <Navbar
       bg="light"
       expand="lg">
       <Container>
-        <Navbar.Brand href="#home">{brand}</Navbar.Brand>
+        <Link to="/">
+          <Navbar.Brand>{brand}</Navbar.Brand>
+        </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
             <NavDropdown
               title="Categorías"
               id="categories">
-              {categories.map((category) => (
-                <NavDropdown.Item
-                  key={category.id}
-                  href="#action/3.1">
-                  {category.name}
-                </NavDropdown.Item>
-              ))}
+              {categories.length === 0
+                ? 'cargando'
+                : categories.map(({ id, name }) => (
+                    <NavDropdown.Item
+                      as={Link}
+                      key={id}
+                      to={`/category/${name}`}>
+                      {name}
+                    </NavDropdown.Item>
+                  ))}
             </NavDropdown>
           </Nav>
-          <CartWidget amount={1337} />
+          <CartWidget amount={cartQuantity} />
         </Navbar.Collapse>
       </Container>
     </Navbar>

@@ -1,0 +1,13 @@
+[
+  { "id": 0, "name": "Todas" },
+  { "id": 1, "name": "Hoja" },
+  { "id": 2, "name": "Tallo" },
+  { "id": 3, "name": "Inflorescencia" },
+  { "id": 4, "name": "Fruto" },
+  { "id": 5, "name": "Bulbo" },
+  { "id": 6, "name": "Legumbres" },
+  { "id": 7, "name": "Raíz" },
+  { "id": 8, "name": "Tubérculo" },
+  { "id": 9, "name": "Cormo" },
+  { "id": 10, "name": "Rizoma" }
+]
